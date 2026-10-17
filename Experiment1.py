@@ -4,7 +4,7 @@ import random
 
 def interpolation_search(arr, target):
     low, high = 0, len(arr) - 1
-    comparisons = 0
+    comparisons = 1
 
     while low <= high and arr[low] <= target <= arr[high]:
         comparisons += 1
